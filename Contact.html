@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<title>E.L. Fitness</title>
+<meta charset="utf-8">
+<style>
+* { box-sizing: border-box; }
+body { font-family:Verdana, Arial, sans-serif;
+       background-color: #c22f2f;
+}
+#wrapper { background-color: #303030; 
+           color: #c22f2f;
+           width: 70%;
+		   margin: auto;
+           min-width: 960px;
+		   max-width: 1200px;
+} 
+nav { float: left;
+	  width: 150px;
+} 
+main {  display: block; 
+        margin-left: 155px;
+        padding: 20px;
+        background-color: #404040;
+        color: #ffffff;
+} 
+header {background-color: #282828;
+        color: #d63f5b; 
+        font-size: 150%; 
+        padding: 10px 10px 10px 155px;
+		background-image: url(lighthouselogo.jpg); 
+		background-repeat: no-repeat;
+}
+h1 { margin-bottom: 20px; }
+h2 { color: #d63f5b; 
+     font-family: arial, sans-serif;
+}
+ 
+#floatright { margin: 10px;
+              float: right;
+}
+
+footer { font-size:70%;
+         text-align: center;
+		 clear: right;
+         padding: 20px;
+	background-color: #282828;
+        color: #ffffff;
+}
+nav ul {list-style-type: none;
+        margin-left: 0;
+        padding: 10px; }
+
+nav a {text-decoration: none;
+       padding: 10px;
+       font-weight:bold; }
+
+nav a:link {color: #FFFFFF;}
+nav a:visited {color: #EAEAEA;}
+nav a:hover {color: #4689db;}
+
+</style> 
+</head>
+<body>
+<div id="wrapper">
+  <header>
+    <h1>Looking For Employment?</h1>
+  </header>
+  <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <br>
+        <li><a href="Membership.html">E.L. Gym Membership</a></li>
+        <br>
+        <li><a href="Fitness Classes.html">Fitness Classes Offered</a></li>
+        <br>
+        <li><a href="Employment.html">Employment Opportunities</a></li>
+        <br>
+        <li><a href="contact.html">Contact Us!</a></li>
+        </ul>
+    </nav>
+    <main>
+    <img src="Contact.jpg" width="250" height="250" id="floatright" alt="Censorship">
+    <h2>Leave your contact info here</h2>
+    <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+    <label>First Name: <input type="text" name="First Name" id="fname"></label><br><br>
+    <label>Last Name: <input type="text" name="Last Name" id="lname"></label><br><br>
+    <label>Email: <input type="email" name="Email" id="email"></label><br><br>
+    <label for="comments">Additional Comments:</label><br>
+    <textarea name="Comments" id="comments" rows="4"
+    cols="40"></textarea><br><br>
+    <input type="submit" value="Apply Now">
+    </form> 
+    </main>
+    <footer>Edward Laryea inc. &copy; 2022
+    </footer>
+</div>
+</body>
+</html>
+
+
